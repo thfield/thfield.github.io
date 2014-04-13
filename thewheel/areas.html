@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>The Wheel-Areas</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<style>
+
+svg {
+  font: 10px sans-serif;
+}
+
+.area {
+  fill: none;
+    stroke:#000;
+  clip-path: url(#clip);
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.brush .extent {
+  stroke: #fff;
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}
+
+</style>
+
+<body>
+    <script src="js/d3.v3.js"></script>
+    
+    
+    <div class="wrapper">
+        <div class="bar" id="weekday"></div>
+        <div class="line" id="total"></div>
+        <div id="wheel"></div>
+    </div>
+
+          <script src="js/areas.js"></script>
+
+
+
+   
+</body>
+
+</html>
+
+

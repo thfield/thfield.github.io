@@ -15,21 +15,31 @@ var xAxis = d3.svg.axis().scale(x).orient("bottom"),
     xAxis2 = d3.svg.axis().scale(x2).orient("bottom"),
     yAxis = d3.svg.axis().scale(y).orient("left");
 
-var color = d3.scale.ordinal()
-    .range(["#5fb7a9", "#0070cd", "#6f6f6f", "#000000"]);
-
 var brush = d3.svg.brush()
     .x(x2)
     .on("brush", brushed);
 
-var line = d3.svg.line()
+var color = d3.scale.ordinal()
+    .range(["#5fb7a9", "#0070cd", "#6f6f6f", "#000000"]);
+
+var line = d3.svg.area()
     .interpolate("basis")
     .x(function(d) { return x(d.date); })
     .y(function(d) { return y(d.rides); });
-var line2 = d3.svg.line()
+var line2 = d3.svg.area()
     .interpolate("basis")
     .x(function(d) { return x2(d.date); })
     .y(function(d) { return y2(d.rides); });
+var area = d3.svg.area()
+    .interpolate("linear") // linear, step, step-before, step-after, basis, basis-open, cardinal, cardinal-open, monotone
+    .x(function(d) { return x(d.date); })
+    .y0(height)
+    .y1(function(d) { return y(d.rides); });
+var area2 = d3.svg.area()
+    .interpolate("basis")
+    .x(function(d) { return x2(d.date); })
+    .y0(height2)
+    .y1(function(d) { return y2(d.rides); });
 
 var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
@@ -91,10 +101,12 @@ d3.csv("data/dailyType.csv", function(error, data) {
       .style("text-anchor", "end")
       .text("rides");
   
-    context.append("g")
+  context.append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height2 + ")")
       .call(xAxis2);
+  
+    
    
   var focusUsers = focus.selectAll(".focusUsers")
       .data(userType)
@@ -107,14 +119,16 @@ d3.csv("data/dailyType.csv", function(error, data) {
       .attr("class", "contextUsers");
     
   contextUsers.append("path")
-      .attr("class", "line")
-      .attr("d", function(d) { return line2(d.values); })
-      .style("stroke", function(d) { return color(d.name); });
+      .attr("class", "area")
+      .attr("d", function(d) { return area2(d.values); })
+      .style("stroke", function(d) { return color(d.name); })
+      .style("fill", function(d) { return color(d.name); });
     
   focusUsers.append("path")
-      .attr("class", "line")
-      .attr("d", function(d) { return line(d.values); })
-      .style("stroke", function(d) { return color(d.name); });
+      .attr("class", "area")
+      .attr("d", function(d) { return area(d.values); })
+      .style("stroke", function(d) { return color(d.name); })
+      .style("fill", function(d) { return color(d.name); });
 
   focusUsers.append("text")
       .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; })    
@@ -140,7 +154,7 @@ d3.csv("data/dailyType.csv", function(error, data) {
 
 function brushed() {
   x.domain(brush.empty() ? x2.domain() : brush.extent());
-  focus.selectAll(".line").attr("d", function(d) { return line(d.values); });
+  focus.selectAll(".area").attr("d", function(d) { return area(d.values); });
   focus.select(".x.axis").call(xAxis);
 }
 
