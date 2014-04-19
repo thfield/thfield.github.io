@@ -1,0 +1,67 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 10px sans-serif;
+}
+.hidden {
+  display: none;
+}
+/* ######### SVG ######### */
+.slice > path{
+	stroke-width:2px;
+    stroke: white;
+} 
+text {
+  fill: black;
+}    
+svg {
+      font: 10px sans-serif;
+    }
+path {
+  fill: none;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+path.weekend {
+  fill: #d1d1d1;
+  opacity: 0.6;
+}
+path.hour {
+  stroke-width: 2px;
+}
+.area {
+  stroke-width: 2px;
+  fill-opacity: 0.3;
+  clip-path: url(#clip);
+}
+    .avgline {
+        fill: none;
+        stroke-width: 1px;
+        clip-path: url(#clip);
+        stroke-dasharray: 5,8;    
+    }    
+    .tempLine {
+        fill: none;
+        stroke-width: 1px;
+        clip-path: url(#clip);
+    }  
+    .bars {
+        fill-opacity: 0.5;
+      clip-path: url(#clip);
+    }
+
+    .axis path,
+    .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+    
+    .brush .extent {
+      stroke: #fff;
+      fill-opacity: .125;
+      shape-rendering: crispEdges;
+    }
