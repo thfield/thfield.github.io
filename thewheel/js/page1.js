@@ -272,8 +272,8 @@ var specialDay = bars.domain().map(function(name) {
   });
 } //end system_rides()
 
-$(document).on('click', '#weekendB', function () { 
-     $('.weekend').toggle(); 
+$(document).on('click', '#weekendCB', function () { 
+     $('#weekendCB').is(':checked') ? $('.weekend').toggle(true) : $('.weekend').toggle(false);
  });
 
 

@@ -31,10 +31,23 @@
         <input type="checkbox" id="americasCB">Americas Cup</input>
         <input type="checkbox" id="bartCB">BART Strike</input>
         <input type="checkbox" id="govCB">Federal Government Shutdown</input>
-        <input type="checkbox" id="avgCB" checked="true">Show Average Rides</input>
+        <input type="checkbox" id="avgCB">Show Average Rides</input>
       </div>
     </div>
     <div id="row2"></div>
+      <div id="heatRadio">
+        <input type="radio" name="heat" value="all" checked="true">All</input>
+        <input type="radio" name="heat" value="sj">San Jose</input>
+        <input type="radio" name="heat" value="rc">Redwood City</input>
+        <input type="radio" name="heat" value="mv">Mountain View</input>
+        <input type="radio" name="heat" value="pa">Palo Alto</input>
+        <input type="radio" name="heat" value="mvpa">Mountain View/Palo Alto</input>
+        <input type="radio" name="heat" value="sf">San Francisco</input>
+      </div>
+      <div id="tooltip" class="hidden">
+        <p><span id="value"></p>
+      </div>
+      <div id="heat"></div>
     <div id="row3"></div>
     <div id="row4"></div>
   </div>  
