@@ -569,6 +569,6 @@ dd p:first-child {
 }
 
 .social {
-  margin: auto;
+  margin: 0 auto;
 }
 }
