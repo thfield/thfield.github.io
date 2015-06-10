@@ -25,7 +25,7 @@ body {
   border-radius:50%;
 }
 
-.navbar-brand {
+.navbar-brand.logo {
     max-height: 50px;
     overflow: visible;
     padding-top: 2.5px;
