@@ -15,3 +15,11 @@ body {
 footer {
     margin: 50px 0;
 }
+
+@media (max-width < 767px) {
+  .tile-img {
+    border: 3px solid red;
+    max-width: 100px;
+    max-height: 100px;
+  }
+ }
