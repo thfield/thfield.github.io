@@ -1,23 +1,27 @@
 ---
 layout: default
 ---
+<link rel="stylesheet" href="foundation-6/css/foundation.min.css">
+<script src="foundation-6/js/jquery.min.js"></script>
+<script src="foundation-6/js/foundation.min.js"></script>
+<script>$(document).foundation();</script>
 
-<div class="home">
+<h1 class="">Portfolio</h1>
+<p></p>
 
-  <h1 class="page-heading">Posts</h1>
+<div class="primary">
+  <div class="row small-up-2 medium-up-3 large-up-4">
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <div class="column">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            <img class="thumbnail" src="{{ post.image | prepend: site.images }}">
+            <h5>{{ post.title }}</h5>
+          </a>
+        </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      {% endfor %}
+    </ul>
+  </div>
 
 </div>
