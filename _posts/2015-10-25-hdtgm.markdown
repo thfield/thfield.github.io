@@ -4,7 +4,7 @@ title:  "HDTGM Repeat Actor Chart"
 date:   2015-10-25
 tech:  D3.js HTML NodeJS bash
 image: 'hdtgm.png'
-ghlink: 'thfield/hdtgm/'
+ghsource: 'thfield/hdtgm/'
 ghpages: 'hdtgm/'
 
 ---
