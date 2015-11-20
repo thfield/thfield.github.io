@@ -2,7 +2,7 @@
 layout: post
 title:  "Calculator"
 date:   2013-12-27
-categories: HTML CSS JavaScript
+tech: HTML CSS JavaScript
 image: 'calc.png'
 ghsource: 'thfield/calculator/'
 ghpages: 'calculator/'

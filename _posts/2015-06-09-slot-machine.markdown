@@ -2,7 +2,7 @@
 layout: post
 title:  "Slot Machine"
 date:   2015-06-09
-categories:  JavaScript CSS
+tech:  JavaScript CSS
 image: 'slotmachine.png'
 ghsource: 'thfield/slotmachine/'
 ghpages: 'slotmachine/'

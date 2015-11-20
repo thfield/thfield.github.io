@@ -2,7 +2,7 @@
 layout: post
 title:  "SampleApp"
 date:   2014-10-23
-categories:  Ruby-on-Rails
+tech:  Ruby-on-Rails
 image: 'sampleapp.png'
 ghsource: 'thfield/sampleapp/'
 ghpages: 'sampleapp/'

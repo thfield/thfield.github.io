@@ -2,7 +2,7 @@
 layout: post
 title:  "Somerville Teacher Tool"
 date:   2015-07-29
-categories:  Ruby-on-Rails Bootstrap HTML CSS JavaScript
+tech:  Ruby-on-Rails Bootstrap HTML CSS JavaScript
 image: 'somerville.png'
 ghsource: 'thfield/somerville-teacher-tool/'
 ghpages: 'somerville-teacher-tool/'

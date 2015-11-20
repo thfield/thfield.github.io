@@ -2,7 +2,7 @@
 layout: post
 title:  "BABS Data Challenge"
 date:   2014-08-26
-categories: HTML CSS JavaScript D3.js data-analysis
+tech: HTML CSS JavaScript D3.js data-analysis
 image: 'babs.png'
 ghsource: 'thfield/babs/'
 ghpages: 'babs/'

@@ -2,7 +2,7 @@
 layout: post
 title:  "chart-modules"
 date:   2014-11-18
-categories: D3.js NVD3.js CSS
+tech: D3.js NVD3.js CSS
 image: 'chartmodules.png'
 ghsource: 'thfield/chart-modules/'
 ghpages: 'chart-modules/'

@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "CycleReady"
+title:  CycleReady
 date:   2015-11-20
-categories:  Ruby-on-Rails Mapbox.js D3.js TopoJSON node
-image: 'cycleready.png'
-ghsource: 'cycleready/cycleready-web'
-outlink: 'https://cycleready.herokuapp.com/'
+tech:  Ruby-on-Rails Mapbox.js D3.js TopoJSON node
+image: cycleready.png
+ghsource: cycleready/cycleready-web
+outlink: https://cycleready.herokuapp.com/
 
 ---
 This SFBrigade project started with me being the only developer, making a quick Rails app, but has since attracted several more.

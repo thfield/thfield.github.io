@@ -2,7 +2,7 @@
 layout: post
 title:  "SF Neighborhoods"
 date:   2015-06-22
-categories:  D3.js TopoJSON HTML CSS JavaScript
+tech:  D3.js TopoJSON HTML CSS JavaScript
 image: 'sf-map.png'
 ghsource: 'thfield/sf-map/'
 ghpages: 'sf-map/'

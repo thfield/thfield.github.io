@@ -2,7 +2,7 @@
 layout: post
 title:  "Haiti Choropleths"
 date:   2015-10-20
-categories:  D3.js TopoJSON
+tech:  D3.js TopoJSON
 image: 'haiti.png'
 ghpages: 'thfield/haiti/'
 ghlink: 'haiti/'

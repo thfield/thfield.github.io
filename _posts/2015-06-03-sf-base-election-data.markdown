@@ -2,7 +2,7 @@
 layout: post
 title:  "SF Base Election Data"
 date:   2015-06-03
-categories:  Django Bootstrap
+tech:  Django Bootstrap
 image: 'sfbed.png'
 ghsource: 'thfield/sf-base-election-data/'
 ghpages: 'sf-base-election-data/'

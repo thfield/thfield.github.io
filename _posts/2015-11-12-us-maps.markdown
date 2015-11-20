@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "US Cartograph"
+title:  US Cartograph
 date:   2015-11-12
-categories:  D3.js HTML
-image: 'us-maps.png'
-ghsource: 'thfield/us-maps/'
-ghpages: 'us-maps/'
+tech:  D3.js HTML
+image: us-maps.png
+ghsource: thfield/us-maps/
+ghpages: us-maps/
 
 ---
 A way to visualize data about the states; in this specific implementation, representation in Congress.

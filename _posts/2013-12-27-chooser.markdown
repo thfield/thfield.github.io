@@ -2,7 +2,7 @@
 layout: post
 title:  "Chooser"
 date:   2013-12-27
-categories: HTML jQuery jQuery-UI
+tech: HTML jQuery jQuery-UI
 image: 'chooser.png'
 ghsource: 'thfield/chooser'
 ghpages: 'chooser/'

@@ -2,7 +2,7 @@
 layout: post
 title:  "Custom Choropleths"
 date:   2015-10-20
-categories:  D3.js HTML JS Bootstrap Jade TopoJSON
+tech:  D3.js HTML JS Bootstrap Jade TopoJSON
 image: 'custom.png'
 ghsource: 'thfield/haiti/'
 ghpages: 'haiti/custom.html'

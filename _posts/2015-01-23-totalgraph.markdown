@@ -2,7 +2,7 @@
 layout: post
 title:  "Totalgraph"
 date:   2015-01-23
-categories:  Ruby-on-Rails D3.js NVD3.js
+tech:  Ruby-on-Rails D3.js NVD3.js
 image: 'totalgraph.png'
 ghsource: 'thfield/totalgraph/'
 ghpages: 'totalgraph/'

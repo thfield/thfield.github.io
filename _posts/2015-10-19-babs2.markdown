@@ -2,7 +2,7 @@
 layout: post
 title:  "BABS 2"
 date:   2015-10-19
-categories:  Ruby-on-Rails D3.js Postgres
+tech:  Ruby-on-Rails D3.js Postgres
 image: 'babs2.png'
 ghsource: 'thfield/babs2/'
 outlink: 'https://enigmatic-river-8975.herokuapp.com/'
