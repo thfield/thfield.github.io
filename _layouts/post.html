@@ -24,7 +24,9 @@ layout: default
 
   <div class="row">
     <div class="small-12 medium-4 columns">
-      <img class="small" src="{{ page.image | prepend: site.images }}"/>
+      {% if page.ghpages %} <a href="http://thfield.github.io/{{ page.ghpages }}">{% endif %}
+        <img class="small" src="{{ page.image | prepend: site.images }}"/>
+      {% if page.ghpages %} </a>{% endif %}  
     </div>
 
     <div class="small-12 medium-8 columns">

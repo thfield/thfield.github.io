@@ -1,0 +1,11 @@
+---
+layout: post
+title:  SFMTA
+date:   2015-12-05
+tech:  Ruby-on-Rails D3.js GeoJSON node
+image: sfmta.png
+ghsource: thfield/sfmta/
+ghpages: sfmta/
+
+---
+Visualize the SFMTA Bus System according to service frequency by each hour of the day.
