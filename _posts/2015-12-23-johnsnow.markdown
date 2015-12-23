@@ -1,0 +1,11 @@
+---
+layout: post
+title:  JohnSnow
+date:   2015-12-23
+tech:  D3.js GeoJSON node
+image: johnsnow.png
+ghsource: thfield/johnsnow/
+ghpages: johnsnow/
+
+---
+A recreation of Dr. John Snow's famous map of the London cholera outbreak of 1854 using D3
