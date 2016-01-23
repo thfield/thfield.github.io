@@ -11,6 +11,6 @@ There are several different ways to find me on the internet.
 * [Facebook](http://www.facebook.com/thfield)
 * [Twitter](http://www.twitter.com/thfield)
 * [Instagram](http://instagram.com/tylerhfield)
-* [LinkedIn](http://www.linkedin.com/pub/tyler-field/a7/16a/908/)
+* [LinkedIn](http://www.linkedin.com/in/thfield)
 * [GitHub](https://github.com/thfield)
 * [Medium](https://medium.com/@thfield/)
