@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "SF Neighborhoods"
+title:  "SF Maps"
 date:   2016-01-23
 tech:  D3.js USCensusAPI TopoJSON GIS HTML CSS JavaScript
 image: 'sf-map2.png'
