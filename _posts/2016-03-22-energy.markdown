@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Energy"
+date:   2016-03-22
+tech:  D3.js HTML CSS JavaScript
+image: 'energy.png'
+ghsource: 'smoningi/SF-Environment-Benchmark/'
+ghpages: 'SF-Environment-Benchmarkv/Prototype%20Visualization'
+
+
+---
+This is a project of the Data Science Working Group within the Code for San Francisco Brigade, we are working with the SF Department of Environment to visualize some of their data, and to create solutions to their data-related needs.
+This prototype shows a variety of environmental benchmark scores for commercial properties around the city of San Francisco.  The code I am most responsible for in this version is the histogram which shows the distribution of benchmark scores across the city and highlights the currently selected building.
+

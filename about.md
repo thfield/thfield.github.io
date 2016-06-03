@@ -14,4 +14,6 @@ Some of the technologies I'm familar with:
 * jQuery
 * Ruby on Rails
 * SQL
+* PHP
+* GIS
 * Django
