@@ -11,3 +11,5 @@ There are several different ways to find me on the internet.
 * [LinkedIn](http://www.linkedin.com/in/thfield)
 * [GitHub](https://github.com/thfield)
 * [Medium](https://medium.com/@thfield/)
+
+Sometimes I blog at the [Data Science Working Group at SF Brigade](http://datascience.codeforsanfrancisco.org/)
