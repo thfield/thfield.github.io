@@ -4,8 +4,8 @@ title:  "Bayes Hackathon"
 date:   2016-05-15
 tech:  D3.js HTML CSS JavaScript
 image: 'bayeshack.png'
-ghsource: 'thfield/dot/'
-ghpages: 'dot/'
+ghsource: 'bayeshack2016/cfsf-datasci_dot-hazmat'
+outlink: 'http://bayeshack2016.github.io/cfsf-datasci_dot-hazmat/website/'
 
 
 ---
