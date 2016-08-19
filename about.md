@@ -3,7 +3,7 @@ layout: page
 title: About Me
 permalink: /about/
 ---
-I'm a former Aerospace Engineer who reinvented myself as a web developer.  I'm interested in data visualization that enables better decision making, and working on projects that have a day-to-day impact on users.
+I used to work in a laboratory doing research with lasers and materials.  I wanted to work on topics that had a more immediate impact on the world, and tied in my aesthetics and communication abilities.  I'm interested in data visualization that enables better decision making, and working on projects that have a day-to-day impact on users.
 
 Some of the technologies I'm familar with:
 
@@ -15,7 +15,6 @@ Some of the technologies I'm familar with:
 * AngularJS
 * Bootstrap
 * Ruby on Rails
-* Django
 * Laravel
 * mySQL
 * PHP
@@ -23,5 +22,5 @@ Some of the technologies I'm familar with:
 * Swagger/OpenAPI
 * git/GitHub
 * qGIS
-* Leaflet, MapBox
+* OpenLayers, Leaflet, MapBox
 * topoJSON/geoJSON
