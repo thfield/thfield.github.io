@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "SF Maps"
+title:  "SF Census"
 date:   2016-01-23
 tech:  D3.js USCensusAPI TopoJSON GIS HTML CSS JavaScript
 image: 'sf-map2.png'
-ghsource: 'thfield/sf-map/'
-ghpages: 'sf-map/'
+ghsource: 'thfield/sf-census/'
+ghpages: 'sf-census/'
 
 
 ---
