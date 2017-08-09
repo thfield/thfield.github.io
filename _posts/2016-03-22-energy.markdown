@@ -11,4 +11,4 @@ outlink: 'http://smoningi.github.io/SF-Environment-Benchmark/dashboard/'
 ---
 This is a project of the [Data Science Working Group](http://datascience.codeforsanfrancisco.org) within the Code for San Francisco Brigade. We are working with the SF Department of Environment to visualize some of their data in a custom dashboard, and to create solutions to their data-related needs.
 
-See the dashboard [here](http://smoningi.github.io/SF-Environment-Benchmark/dashboard/), and check out the original map interface [here](http://smoningi.github.io/SF-Environment-Benchmark/map/)
+See the evolution of the dashboard from [beginning](http://smoningi.github.io/SF-Environment-Benchmark/dashboard/), to [current 1/3](http://old.codeforsanfrancisco.org/datasci-SF-Environment-Benchmark/dashboard/estar.html?apn=3705/039) [current 2/3](http://old.codeforsanfrancisco.org/datasci-SF-Environment-Benchmark/dashboard/eui.html?apn=3705/039) [current 3/3](http://old.codeforsanfrancisco.org/datasci-SF-Environment-Benchmark/dashboard/ghg.html?apn=3705/039), and check out the original map interface [here](http://smoningi.github.io/SF-Environment-Benchmark/map/)
