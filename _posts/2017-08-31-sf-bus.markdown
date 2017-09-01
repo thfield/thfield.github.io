@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "SF Bus Map"
+date:   2017-08-31
+tech:  D3.js node Mapbox turfjs HTML CSS JavaScript
+image: 'sf-bus.png'
+ghsource: 'thfield/sf-bus/'
+ghpages: 'sf-bus/'
+
+
+---
+
+I moved and wanted to learn the SFMTA bus routes for my new neighborhood.  I couldn't find an interactive map that worked to my satisfaction, so I made this.
+
+A [Medium post I wrote](https://medium.com/@thfield/adventures-in-amateur-cartography-ad4927ccfccc) about the process.
+
+
