@@ -17,6 +17,7 @@ Some of the technologies I'm familar with:
 * Ruby on Rails
 * Laravel
 * mySQL
+* node
 * PHP
 * Vagrant
 * Swagger/OpenAPI
