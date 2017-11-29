@@ -11,13 +11,13 @@ Some of the technologies I'm familar with:
 * CSS
 * JavaScript
 * D3.js
+* node
+* Angular
 * jQuery
-* AngularJS
 * Bootstrap
 * Ruby on Rails
 * Laravel
 * mySQL
-* node
 * PHP
 * Vagrant
 * Swagger/OpenAPI
